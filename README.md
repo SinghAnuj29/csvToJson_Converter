@@ -23,6 +23,8 @@ Before running the application, ensure you have PostgreSQL and node.js set up on
 2. Install dependencies:
    npm install
 
+## Environment Variables
+
 3. Create a .env file in the root directory of the project and add the following environment variables:
 
 CSV_FILE_PATH=/path/to/csv/file.csv  
@@ -34,12 +36,16 @@ DB_PORT=5432
 
 Make sure to replace the placeholders (/path/to/csv/file.csv, my_database_user, etc.) with your actual file path and database configuration details.
 
+## Endpoints
+
 4. Start the server:  
    npm start
 
 5. To convert a CSV file to JSON, send a GET request to the /parse endpoint.
 
    url: http://localhost:5000/parse
+
+## Technologies Used
 
 6. Technologies Used  
    Node.js  
