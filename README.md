@@ -39,7 +39,7 @@ Make sure to replace the placeholders (/path/to/csv/file.csv, my_database_user, 
 
 5. To convert a CSV file to JSON, send a GET request to the /parse endpoint.
 
-url: http://localhost:5000/parse
+   url: http://localhost:5000/parse
 
 6. Technologies Used  
    Node.js  
